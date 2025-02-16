@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Card Component Demo</title>
+    <script type="module" src="src/my-card.js"></script>
+    <style>
+        my-card[fancy] {
+          --my-card-fancy-bg: #0000F0;
+        }
+    </style>
+</head>
+<body>
+
+    <my-card title="Minesotta Wild">
+      <p>A professional hockey team, yet they have terrible colors. I wish I had a <strong>AWESOME</strong> neon yellow / lime jersey like their retro-reverse jerseys</p>
+    </my-card>
+
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+    </style>
+
+    <my-card 
+        title="Space Exploration"
+        description="Discover the wonders of the universe."
+        image="https://source.unsplash.com/300x180/?space"
+        link="https://www.nasa.gov/">
+    </my-card>
+
+    <my-card 
+        title="Deep Sea Diving"
+        description="Explore the mysteries of the ocean depths."
+        image="https://source.unsplash.com/300x180/?ocean"
+        link="https://www.nationalgeographic.com/">
+    </my-card>
+
+    <my-card 
+        title="Awesome Hikes"
+        description="Hike through breathtaking landscapes."
+        image="https://source.unsplash.com/300x180/?mountain"
+        link="https://www.rei.com/">
+    </my-card>
+
+    <my-card 
+        title="Delicious Food"
+        description="Taste amazing dishes from around the world."
+        image="https://source.unsplash.com/300x180/?food"
+        link="https://www.foodnetwork.com/">
+    </my-card>
+
+    <my-card 
+        title="Tech Innovations"
+        description="Stay updated on the latest technology."
+        image="https://source.unsplash.com/300x180/?technology"
+        link="https://www.wired.com/">
+    </my-card>
+
+</body>
+</html>
